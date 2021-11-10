@@ -12,7 +12,7 @@ body{
   padding:0%;
 }
 
-.Todo_List_Input {
+.TodoListInput {
   flex: 30%;
   width: 100%;
   display: flex;
@@ -20,7 +20,7 @@ body{
   align-items: center;
 }
 
-.Todo_List_Input input{
+.TodoListInput input{
   width: 200px;
   height: 40px;
   border-bottom-left-radius: 10px;
@@ -30,13 +30,53 @@ body{
   broder: 1px solid black;
 }
 
-.Todo_List_Input button{
+.TodoListInput button{
   width: 55px;
   height: 40px;
   cursor: pointer;
 }
 
-.Todo_List{
+.TodoList{
   flex: 70%;
   width: 100%;
+}
+
+.TodoList{
+  flex: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.todoList{
+  width: 500px;
+  height: 50px;
+  display: flex;
+  color: black;
+  margin: 15px;
+}
+
+.todoList .content{
+  flex: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoList .content span{
+  display: grid;
+  place-items: center;
+  border: 3px solid black;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+
+.todoList button{
+  flex: 20%;
+  height: 100%;
+  cursor: pointer;
 }
